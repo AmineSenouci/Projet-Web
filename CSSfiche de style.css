@@ -1,0 +1,252 @@
+html{
+	background-color: #EEDCAF;
+}
+
+
+
+
+.couleurDuMenu
+	{
+
+		height: 100%;
+		width: 100%;
+	background-color: #fffcd3;
+	border: 5px solid #fffcd3;
+	color: #fffcd3;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn:active,
+.btn.active {
+    outline: none;
+    box-shadow: none
+}
+
+.btn-primary{
+    border-color: #333;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+    background-color: transparent; /* couleur du fond du bouton  */
+    padding: 20px 45px;
+    letter-spacing: 1px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    border: 2px solid;
+}
+
+
+/* couleur de la bordure du menu */
+.btn-white {
+    border-color: #FFCC47;
+    color: #FFCC47;
+}
+
+
+.btn-primary.btn-transparent {
+    border-color: transparent!important
+}
+
+.btn-primary.btn-transparent:hover,
+.btn-primary.btn-transparent:active,
+.btn-primary.btn-transparent:focus,
+.btn-primary.btn-transparent.active {
+    color: #fff;
+    border-color: transparent #F22613;
+    background-color: #F22613; !important
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: brown;     /*couleur du cadre quand on passe la souris dessus*/
+    color: brown;		/* Couleur de l'écriture quand on passe la souris dessus */
+    background-color: transparent;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #333;
+    background-color: #333
+}
+
+
+.pull-right {
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carréBordure
+{
+	border: thick double #847652;
+	border-top: 50 %;
+	border-bottom: 50 %;
+	border-right: 50 %;
+	border-left: 50 %;
+	margin-top: 150px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 150px;
+}
+
+
+
+
+
+
+
+
+.coteGauche
+{
+  font-size: 20px;
+  text-shadow: -1px -1px chocolate, 1px 1px chocolate, -3px 0 4px chocolate;
+  font-family:"Segoe print", Arial, Helvetica, sans-serif;
+  color: chocolate;
+  padding:64px 0 0 0;
+  margin:1px auto;
+  font-weight:lighter;
+  -moz-box-shadow:none;  
+  -webkit-box-shadow: none;  
+  box-shadow:none;  
+  text-align:begin;
+  display:block;
+ 
+  max-width:90%;  
+  background-image:url(images/background-h1-tesla.jpg);
+}
+
+
+.coteDroit
+{
+  font-size: 20px;
+  text-shadow: -1px -1px chocolate, 1px 1px chocolate, -3px 0 4px chocolate;
+  font-family:"Segoe print", Arial, Helvetica, sans-serif;
+  color: chocolate;
+  padding:64px 0 0 0;
+  margin:1px auto;
+  font-weight:lighter;
+  -moz-box-shadow:none;  
+  -webkit-box-shadow: none;  
+  box-shadow:none;  
+  text-align:end;
+  display:block;
+  
+ 
+  max-width:90%;  
+  background-image:url(images/background-h1-tesla.jpg);
+}
+
+
+footer {
+  color: grey;
+  font-weight: lighter;   
+  font-size:0.7em;
+  margin-bottom: 10px;
+}
+
+
+
+
+.social-network-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.footer  {
+  overflow: hidden;
+  width: 100%;
+  color: grey;
+  font-weight: lighter;   
+  font-size:0.7em;
+  margin-bottom: 10px;  
+}
