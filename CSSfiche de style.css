@@ -51,6 +51,30 @@ header{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mise en place du style des bouttons du menu */
+
+
+
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -169,6 +193,30 @@ fieldset[disabled] .btn-primary.active {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mise en place du style des titres "thématiques" à gauche et à droite */
+
+
+
+
+
 .carréBordure
 {
 	border: thick double #847652;
@@ -230,19 +278,23 @@ fieldset[disabled] .btn-primary.active {
 }
 
 
+
+
+
+
+
+
+
+
+/* Mise en place du style du footer et de ses logos */
+
+
+
 footer {
   color: grey;
   font-weight: lighter;   
   font-size:0.7em;
   margin-bottom: 10px;
-}
-
-
-
-
-.social-network-logo {
-  width: 50px;
-  height: 50px;
 }
 
 .footer  {
@@ -253,3 +305,11 @@ footer {
   font-size:0.7em;
   margin-bottom: 10px;  
 }
+
+
+
+.social-network-logo {
+  width: 50px;
+  height: 50px;
+}
+
